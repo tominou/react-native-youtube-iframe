@@ -189,11 +189,16 @@ export const MAIN_SCRIPT = (
     </style>
   </head>
   <body>
-    <div class="container">
+  <div>
+    width=<div id="view-width"></div>
+    height=<div id="view-height"></div>
+  </div>
+    <div id="container" class="container">
       <div class="video" id="player" />
     </div>
 
     <script>
+    
       var tag = document.createElement('script');
 
       tag.src = "https://www.youtube.com/iframe_api";
@@ -202,9 +207,11 @@ export const MAIN_SCRIPT = (
 
       var player;
       function onYouTubeIframeAPIReady() {
+        const width = document.getElementById('container').offsetWidth;
+        const height = document.getElementById('container').offsetHeight;
         player = new YT.Player('player', {
-          width: '1000',
-          height: '1000',
+          width,
+          height,
           videoId: '${videoId_s}',
           playerVars: {
             ${listParam}
