@@ -178,9 +178,6 @@ export const MAIN_SCRIPT = (
         padding:5px;
       }
       .video {
-        position: absolute;
-        top: 0;
-        left: 0;
         width: 100px;
         height: 100px;
         background:green;
