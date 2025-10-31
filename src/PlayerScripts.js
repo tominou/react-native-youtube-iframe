@@ -159,30 +159,30 @@ export const MAIN_SCRIPT = (
     <style>
       html {
         background: 'green';
-        padding:5;
+        padding:5px;
       }
       body {
         margin: 0;
         width:100%;
         height:100%;
         background:purple;
-        padding:5;
+        padding:5px;
       }
       .container {
         position: relative;
         width: 100%;
         height: 100%;
         background:yellow;
-        padding:5;
+        padding:5px;
       }
       .video {
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          background:green;
-        padding:5;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background:green;
+        padding:5px;
       }
     </style>
   </head>
