@@ -157,15 +157,23 @@ export const MAIN_SCRIPT = (
       content="width=device-width, ${scale}"
     >
     <style>
+      html {
+        background: 'green';
+        padding:5;
+      }
       body {
         margin: 0;
         width:100%;
         height:100%;
+        background:purple;
+        padding:5;
       }
       .container {
         position: relative;
         width: 100%;
         height: 100%;
+        background:yellow;
+        padding:5;
       }
       .video {
           position: absolute;
@@ -173,6 +181,8 @@ export const MAIN_SCRIPT = (
           left: 0;
           width: 100%;
           height: 100%;
+          background:green;
+        padding:5;
       }
     </style>
   </head>
