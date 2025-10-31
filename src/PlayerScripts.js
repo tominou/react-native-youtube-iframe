@@ -83,6 +83,8 @@ export const MAIN_SCRIPT = (
   initialPlayerParams,
   allowWebViewZoom,
   contentScale,
+  width,
+  height
 ) => {
   const {
     end,
@@ -186,12 +188,12 @@ export const MAIN_SCRIPT = (
     </style>
   </head>
   <body>
-  <div>
-    width=<div id="view-width"></div>
-    height=<div id="view-height"></div>
-  </div>
+    <div>
+      width=${width}
+      height=${height}
+    </div>
     <div id="container" class="container">
-      <div class="video" id="player" />
+      <div class="video" id="playerr" />
     </div>
 
     <script>
