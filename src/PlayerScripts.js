@@ -159,12 +159,13 @@ export const MAIN_SCRIPT = (
     <style>
       body {
         margin: 0;
+        width:100%;
+        height:100%;
       }
       .container {
         position: relative;
         width: 100%;
-        height: 0;
-        padding-bottom: 56.25%;
+        height: 100%;
       }
       .video {
           position: absolute;
