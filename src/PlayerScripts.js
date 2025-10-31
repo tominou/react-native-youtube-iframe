@@ -160,6 +160,8 @@ export const MAIN_SCRIPT = (
       html {
         background: 'green';
         padding:5px;
+        width:100%;
+        height:100%;
       }
       body {
         margin: 0;
@@ -179,8 +181,8 @@ export const MAIN_SCRIPT = (
         position: absolute;
         top: 0;
         left: 0;
-        width: 100%;
-        height: 100%;
+        width: 100px;
+        height: 100px;
         background:green;
         padding:5px;
       }
