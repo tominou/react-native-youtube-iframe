@@ -259,6 +259,8 @@ const YoutubeIframe = (props, ref) => {
       initialPlayerParamsRef.current,
       allowWebViewZoom,
       contentScale,
+      width,
+      height
     );
 
     if (useLocalHTML) {
